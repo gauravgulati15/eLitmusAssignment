@@ -6,7 +6,6 @@ from manually closing the browser.
 
 <br>
 <hr>
-<br>
 
 ### Feature Checklist
 
@@ -17,6 +16,11 @@ from manually closing the browser.
 - [x] User should not be able to close tab.
 - [x] Perform requirements check.
 - [x] Capture user related information.
+
+<hr>
+
+## Snapshots
+<hr>
 
 ![](images/s1.JPG)
 ![](images/s2.JPG)
