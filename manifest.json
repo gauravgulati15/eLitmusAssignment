@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Assessment Extension",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "windows",
+    "webRequest",
+    "webRequestBlocking",
+    "notifications",
+    "scripting",
+    "topSites",
+    "alarms",
+    "bookmarks",
+    "declarativeWebRequest",
+    "http://*/*",
+    "https://*/*",
+    "webNavigation",
+    "tabCapture",
+    "nativeMessaging"
+  ],
+   "background": {
+    "service_worker": "background.js"
+  },
+  "action" : {
+   
+  },
+"content_scripts" : [
+        {
+        "matches" : ["http://127.0.0.1:5500/testingServer.html"],
+        "js": ["content.js"]
+        }
+    ]
+}
